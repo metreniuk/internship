@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <div className="app">
-        <Header></Header>
+        <Header logoText="AM" menu={["Popular", "New", "Search"]}></Header>
         <div className="app-content">
           <Route exact path="/" component={Home}></Route>
           <Route path="/about" exact component={About}></Route>

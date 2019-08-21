@@ -2,3 +2,9 @@
   background-color: #555;
   height: 50px;
 }
+
+.header-logo {
+  color: white;
+  font-size: 28px;
+  width: 100px;
+}
